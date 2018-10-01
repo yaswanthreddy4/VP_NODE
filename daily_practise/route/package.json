@@ -1,0 +1,19 @@
+{
+  "name": "route",
+  "version": "1.0.0",
+  "description": "routing",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "keywords": [
+    "route"
+  ],
+  "author": "cya",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "fs": "0.0.1-security",
+    "path": "^0.12.7"
+  }
+}

@@ -1,0 +1,123 @@
+undefinedundefined
+undefined
+
+
+
+undefined
+undefined
+{}
+{}
+{}(amt) => {
+        if (deposite_validation.depositeValid(amt) === true) {
+            amountGiven = deposite_userinfo.userInfo.userBalance + amt
+            deposite_userinfo.userInfo.userBalance = amountGiven
+            console.log(`user: ${ deposite_userinfo.userInfo.userName },
+        accountNo: ${ deposite_userinfo.userInfo.userAccountNumber },
+        branch: ${ deposite_userinfo.userInfo.userBranch },
+        Your Balance After deposite Is:`, amountGiven)
+
+            //     let log = `user: ${ deposite_userinfo.userInfo.userName },
+            // accountNo: ${ deposite_userinfo.userInfo.userAccountNumber },
+            // branch: ${ deposite_userinfo.userInfo.userBranch },
+            // Your Balance After deposite Is:`,
+            //         amountGiven
+            //     fs.appendFileSync('long.txt', log)
+        } else {
+            console.log(`You Have Entered More Than Daily Limit. Please Try Again`);
+        }
+    }(amt) => {
+        if (deposite_validation.depositeValid(amt) === true) {
+            amountGiven = deposite_userinfo.userInfo.userBalance + amt
+            deposite_userinfo.userInfo.userBalance = amountGiven
+            let data = console.log(`user: ${ deposite_userinfo.userInfo.userName },
+        accountNo: ${ deposite_userinfo.userInfo.userAccountNumber },
+        branch: ${ deposite_userinfo.userInfo.userBranch },
+        Your Balance After deposite Is:`, amountGiven)
+
+            //     let log = `user: ${ deposite_userinfo.userInfo.userName },
+            // accountNo: ${ deposite_userinfo.userInfo.userAccountNumber },
+            // branch: ${ deposite_userinfo.userInfo.userBranch },
+            // Your Balance After deposite Is:`,
+            //         amountGiven
+            //     fs.appendFileSync('long.txt', log)
+        } else {
+            console.log(`You Have Entered More Than Daily Limit. Please Try Again`);
+        }
+    }undefined(amt) => {
+        if (deposite_validation.depositeValid(amt) === true) {
+            amountGiven = deposite_userinfo.userInfo.userBalance + amt
+            deposite_userinfo.userInfo.userBalance = amountGiven
+            let data = console.log(`user: ${ deposite_userinfo.userInfo.userName },
+        accountNo: ${ deposite_userinfo.userInfo.userAccountNumber },
+        branch: ${ deposite_userinfo.userInfo.userBranch },
+        Your Balance After deposite Is:`, amountGiven)
+            fs.appendFileSync('log.txt', data)
+
+        } else {
+            console.log(`You Have Entered More Than Daily Limit. Please Try Again`);
+        }
+    }undefined(amt) => {
+        if (deposite_validation.depositeValid(amt) === true) {
+            amountGiven = deposite_userinfo.userInfo.userBalance + amt
+            deposite_userinfo.userInfo.userBalance = amountGiven
+            let data = console.log(`user: ${ deposite_userinfo.userInfo.userName },
+        accountNo: ${ deposite_userinfo.userInfo.userAccountNumber },
+        branch: ${ deposite_userinfo.userInfo.userBranch },
+        Your Balance After deposite Is:`, amountGiven)
+            fs.appendFileSync('log.txt', data)
+
+        } else {
+            console.log(`You Have Entered More Than Daily Limit. Please Try Again`);
+        }
+    }undefined(amt) => {
+    if (deposite_validation.depositeValid(amt) === true) {
+        amountGiven = deposite_userinfo.userInfo.userBalance + amt
+        deposite_userinfo.userInfo.userBalance = amountGiven
+
+        var data = console.log(`user: ${ deposite_userinfo.userInfo.userName },
+        accountNo: ${ deposite_userinfo.userInfo.userAccountNumber },
+        branch: ${ deposite_userinfo.userInfo.userBranch },
+        Your Balance After deposite Is:`, amountGiven)
+
+
+    } else {
+        console.log(`You Have Entered More Than Daily Limit. Please Try Again`);
+    }
+    fs.appendFileSync('log.txt', data)
+}{"user":"yaswanth","accountNo":65746656546,"branch":"pulivendula","Your_Balance_After_deposite_Is":120000}(amt) => {
+    if (deposite_validation.depositeValid(amt) === true) {
+        amountGiven = deposite_userinfo.userInfo.userBalance + amt
+        deposite_userinfo.userInfo.userBalance = amountGiven
+
+        console.log(`user: ${ deposite_userinfo.userInfo.userName },
+        accountNo: ${ deposite_userinfo.userInfo.userAccountNumber },
+        branch: ${ deposite_userinfo.userInfo.userBranch },
+        Your Balance After deposite Is:`, amountGiven)
+
+        let data = {
+            user: deposite_userinfo.userInfo.userName,
+            accountNo: deposite_userinfo.userInfo.userAccountNumber,
+            branch: deposite_userinfo.userInfo.userBranch,
+            Your_Balance_After_deposite_Is: amountGiven
+        }
+
+
+        fs.appendFileSync("log.txt", JSON.stringify(data));
+
+
+    } else {
+        console.log(`You Have Entered More Than Daily Limit. Please Try Again`);
+    }
+
+}{"user":"yaswanth","accountNo":65746656546,"branch":"pulivendula","Your_Balance_After_deposite_Is":120000}{"user":"yaswanth","accountNo":65746656546,"branch":"pulivendula","Your_Balance_After_deposite_Is":120000}{"user":"yaswanth","accountNo":65746656546,"branch":"pulivendula","Your_Balance_After_deposite_Is":120000}{"user":"yaswanth","accountNo":65746656546,"branch":"pulivendula","Your_Balance_After_deposite_Is":120000}{"user":"yaswanth","accountNo":65746656546,"branch":"pulivendula","Your_Balance_After_deposite_Is":120000}{"user":"yaswanth","accountNo":65746656546,"branch":"pulivendula","Your_Balance_After_deposite_Is":120000}
+{"user":"yaswanth","accountNo":65746656546,"branch":"pulivendula","Your_Balance_After_deposite_Is":120000}
+{"user":"yaswanth","accountNo":65746656546,"branch":"pulivendula","Your_Balance_After_deposite_Is":120000}
+{"user":"yaswanth","accountNo":65746656546,"branch":"pulivendula","Your_Balance_After_deposite_Is":120000}
+{"user":"yaswanth","accountNo":65746656546,"branch":"pulivendula","Your_Balance_After_deposite_Is":120000}
+{"user":"yaswanth","accountNo":65746656546,"branch":"pulivendula","Your_Balance_After_deposite_Is":120000}
+{"user":"yaswanth","accountNo":65746656546,"branch":"pulivendula"}
+{"user":"yaswanth","accountNo":65746656546,"branch":"pulivendula","Your_Balance_After_deposite_Is":120000}
+{"user":"yaswanth","accountNo":65746656546,"branch":"pulivendula","Your_Balance_After_Widra_Is":100000}
+{"user":"yaswanth","accountNo":65746656546,"branch":"pulivendula"}
+{"user":"yaswanth","accountNo":65746656546,"branch":"pulivendula","Your_Balance_After_deposite_Is":120000}
+{"user":"yaswanth","accountNo":65746656546,"branch":"pulivendula","Your_Balance_After_Widra_Is":100000}

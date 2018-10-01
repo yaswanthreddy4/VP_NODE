@@ -1,0 +1,21 @@
+{
+  "name": "html_website",
+  "version": "1.0.0",
+  "description": "hosting a website in nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "keywords": [
+    "html",
+    "node",
+    "hosting"
+  ],
+  "author": "CYR",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "filepath": "^1.1.0",
+    "fs": "0.0.1-security"
+  }
+}

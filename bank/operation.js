@@ -1,5 +1,5 @@
-let operations = require('./userinfo')
-let validation = require('./validation')
+let operations = require('./userinfo');
+let validation = require('./validation');
 module.exports.balaAmt = () => {
     console.log(
         `user: ${ operations.userInfo.userName },

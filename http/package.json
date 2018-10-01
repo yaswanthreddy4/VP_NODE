@@ -1,0 +1,21 @@
+{
+    "name": "server.js",
+    "version": "1.0.0",
+    "description": "http practise",
+    "main": "index.js",
+    "scripts": {
+        "start": "node json_task",
+        "test": "npm test"
+    },
+    "keywords": [
+        "httpd",
+        "server",
+        "app",
+        "creation"
+    ],
+    "author": "CYR",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.16.3"
+    }
+}
