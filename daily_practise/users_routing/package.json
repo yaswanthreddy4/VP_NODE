@@ -1,0 +1,21 @@
+{
+    "name": "users_routing",
+    "version": "1.0.0",
+    "description": "user info",
+    "main": "index.js",
+    "scripts": {
+        "test": "npm test"
+    },
+    "keywords": [
+        "usersmapping",
+        "userinfo"
+    ],
+    "author": "cyr",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.16.3",
+        "fs": "0.0.1-security",
+        "path": "^0.12.7",
+        "route": "^0.2.5"
+    }
+}
