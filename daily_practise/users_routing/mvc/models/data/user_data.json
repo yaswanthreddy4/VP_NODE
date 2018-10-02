@@ -1,0 +1,25 @@
+[{
+        "employeeName": "yaswanth",
+        "employeeId": 3566767,
+        "employeeDesignation": "FullStackDeveloper",
+        "employeeSalary": 99000
+    },
+    {
+        "employeeName": "reddy",
+        "employeeId": 3566768,
+        "employeeDesignation": "TestEngineer",
+        "employeeSalary": 92000
+    },
+    {
+        "employeeName": "chintha",
+        "employeeId": 3566769,
+        "employeeDesignation": "Admin",
+        "employeeSalary": 80000
+    },
+    {
+        "employeeName": "ravi",
+        "employeeId": 3566770,
+        "employeeDesignation": "HR",
+        "employeeSalary": 95000
+    }
+]

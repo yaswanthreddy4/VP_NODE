@@ -1,0 +1,23 @@
+{
+  "name": "http_methods",
+  "version": "1.0.0",
+  "description": "d/f types of http_methods get,post,put,delete,patch",
+  "main": "method.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "keywords": [
+    "get",
+    "post",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "author": "Reddy",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "fs": "0.0.1-security",
+    "path": "^0.12.7"
+  }
+}
