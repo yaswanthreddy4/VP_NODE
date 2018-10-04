@@ -16,12 +16,12 @@ module.exports.getAllHotels = (req, res, next) => {
 
 module.exports.getOneHotel = (req, res, next) => {
     console.log(req.url);
-    console.log(req.params.hotelId);
+    // console.log(req.params.hotelId);
     if (req.params && req.params.hotelId) {
         let hotel = hotelData[req.params.hotelId];
         res
             .status(200)
-            .json(hotel);
+            .send(hotel);
     } else {
         res.status(404)
             .json({ message: "request params is not present " })

@@ -69,15 +69,44 @@
 //         ]);
 // };
 
-const user_data = require('../models/data/user_data')
+const user_data = require('../models/data/user_data');
+const fs = require('fs');
+// const words = JSON.parse(user_data);
+const path = require('path');
 module.exports.allUsers = (req, res, next) => {
     console.log(req.query);
     let offset = 0;
     let count = 4;
     if (req.query && req.query.offset && req.query.count) {
-        offset = req.query.offset;
-        count = req.query.count;
+        offset = parseInt(req.query.offset, 10);
+        count = parseInt(req.query.count, 10);
     }
     let finalUsers = user_data.slice(offset, offset + count);
     res.status(200).json(finalUsers);
 }
+
+module.exports.sendingFile = (req, res, next) => {
+    console.log(req.url);
+    res.sendFile(path.join(__dirname, '../models/data/user_data.json'))
+}
+
+// module.exports.user = (req, res, next) => {
+//     console.log(req.query);
+//     console.log(req.params.userId);
+//     if (req.params && req.params.userId) {
+//         let finalUser = user_data[req.params.userId];
+//         res.status(200).json(finalUser);
+//     } else {
+//         res.status(404).json({ error: error });
+//     }
+// };
+
+module.exports.user1 = (req, res, next) => {
+    var name = req.params.userByName;
+    let finalUser = user_data.find(function(obj) {
+        if (obj.employeeName === name)
+            return name;
+    })
+    console.log(finalUser);
+    res.status(200).json(finalUser);
+};

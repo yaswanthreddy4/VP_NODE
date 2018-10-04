@@ -4,7 +4,7 @@ const path = require('path');
 const user_route = require('./mvc/routers/user.route');
 
 const server = express();
-server.set('port', 3366);
+server.set('port', 3336);
 server.set('host', '127.0.0.1');
 
 server.use(function(req, res, next) {

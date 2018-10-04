@@ -19,7 +19,20 @@ const router = express.Router();
 //     .get(user_controller.user4);
 
 router
+    .route('/sendingfile')
+    .get(user_controller.sendingFile)
+
+router
     .route('/allusers')
     .get(user_controller.allUsers)
+
+router
+    .route('/user/:userId')
+    .get(user_controller.user)
+
+router
+    .route('/user1/:userByName')
+    .get(user_controller.user1)
+
 
 module.exports = router;
