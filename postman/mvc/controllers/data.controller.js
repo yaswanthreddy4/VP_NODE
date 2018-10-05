@@ -11,7 +11,7 @@ module.exports.getMethod = (req, res, next) => {
         count = parseInt(req.query.count, 10)
     }
     let finalData = data.slice(offset, offset + count)
-    res.json(finalData)
+    res.send(finalData)
         // res.sendFile(path.join(__dirname, '../models/data.js'))
 };
 
