@@ -1,0 +1,29 @@
+{
+  "name": "mongodb_node_combination",
+  "version": "1.0.0",
+  "description": "practise on mongodb along with node. doing mongo operations",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "keywords": [
+    "node",
+    "mongodb",
+    "get",
+    "put",
+    "push",
+    "post",
+    "delete",
+    "patch",
+    "operations"
+  ],
+  "author": "yaswanth",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "fs": "0.0.1-security",
+    "mongodb": "^3.1.6",
+    "path": "^0.12.7"
+  }
+}
