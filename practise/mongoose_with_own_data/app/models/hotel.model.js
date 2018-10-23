@@ -9,7 +9,8 @@ let roomSchema = mongoose.Schema({
 
 let locationSchema = mongoose.Schema({
     address: String,
-    coordinates: [Number]
+    coordinates: [Number],
+
 });
 
 let reviewSchema = mongoose.Schema({
